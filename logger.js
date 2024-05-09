@@ -41,9 +41,9 @@ module.exports = {
 	},
 	Error: function(/** @type {unknown} */ str, /** @type {() => void} */ callback) {
 		if (!str) {
-			console.log(chalk.magenta.bold('『 FCA-ERORR 』 > ') + chalk.red("Already Faulty, Please Contact: Facebook.com/Lazic.Kanzu"));
+			console.log(chalk.magenta.bold('『 FCA-ERROR 』 > ') + chalk.red("Already Faulty, Please Contact: Facebook.com/Lazic.Kanzu"));
 		}
-		console.log(chalk.magenta.bold('『 FCA-ERORR 』 > ') + chalk.red(str));
+		console.log(chalk.magenta.bold('『 FCA-ERROR 』 > ') + chalk.red(str));
 		if (getType(callback) == 'Function' || getType(callback) == 'AsyncFunction') {
 			callback();
 		}
