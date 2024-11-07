@@ -52,7 +52,7 @@
     "ws": "^8.13.0"
   },
   "engines": {
-    "node": ">=20.x"
+    "node": ">=18.x"
   },
   "devDependencies": {
     "eslint": "^8.40.0",
