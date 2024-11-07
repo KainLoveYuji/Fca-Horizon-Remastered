@@ -48,7 +48,7 @@
     "sqlite3": "^5.0.2",
     "totp-generator": "^0.0.14",
     "tough-cookie": "^4.1.2",
-    "uuid": "latest",
+    "uuid": "1.1.2",
     "ws": "^8.13.0"
   },
   "engines": {
